@@ -1,4 +1,4 @@
-package ex01;
+package ex02;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
@@ -7,12 +7,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 // Spring Test는 되지만 BootTest는 x 
- 
+//@Configuration 
 
 // Springboot Test
-// @SpringBootConfiguration
-
-@Configuration
+@SpringBootConfiguration
 public class MyApplication {
 	
 	@Bean
