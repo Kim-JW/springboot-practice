@@ -34,21 +34,21 @@ public class HelloWorldApplication {
 		 * 
 		 * */
 		
-		ConfigurableApplicationContext c = null;
+		// ConfigurableApplicationContext c = null;
 		
-		try {
-			 c = SpringApplication.run(HelloWorldApplication.class, args);
-		} catch (Throwable ex) {
-			ex.printStackTrace();
-		} finally {
-			c.close();
-		}
+//		try {
+//			 c = SpringApplication.run(HelloWorldApplication.class, args);
+//		} catch (Throwable ex) {
+//			ex.printStackTrace();
+//		} finally {
+//			c.close();
+//		}
 		
 		// try ~ with ~ resource
 		
-//		try(ConfigurableApplicationContext c = SpringApplication.run(HelloWorldApplication.class, args)){
-//			
-//		}
+		try(ConfigurableApplicationContext c = SpringApplication.run(HelloWorldApplication.class, args)){
+			
+		}
 		
 	}
 }
