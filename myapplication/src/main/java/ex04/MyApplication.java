@@ -20,7 +20,6 @@ import org.springframework.context.annotation.Configuration;
 
 
 @SpringBootApplication
-@ComponentScan
 public class MyApplication {
 	
 	public static void main(String[] args) {
